@@ -6,11 +6,11 @@ Its very slow(partly thanks to it being in python) and the solutions are probabl
 
 A textfile of 1141KB got compressed into 751KB - A 34% decrease. The caveat is that it took 10 minutes :D
 
-##How to use it:
-  ###Encoding:
+## How to use it:
+  ### Encoding:
     `python First_compressor.py -e file.txt -w file_to_write_result_to.txt`
 
-  ###Decoding:
+  ### Decoding:
     `python First_compressor.py -d encoded_file.txt -w file_to_write_result_to.txt`
 
   If `-w` isnt given, it will print the result to the terminal.
